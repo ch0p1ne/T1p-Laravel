@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\AccueilController::class, 'index']);
+Route::get('/', [\App\Http\Controllers\AccueilController::class, 'index'])->name('accueil');
 
 // prefix toutes les urls du groupe par /app/
 Route::prefix('app')->group(function () {

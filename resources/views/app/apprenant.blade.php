@@ -16,6 +16,11 @@
         <p> {{$apprenant->formation}}</p>
     @endforeach
 
+        <div style="display: inline-block">
+        <hr>
+        <h2 style="color: darkseagreen">Liens :</h2>
+        <p> Retourné a la page d'accueil en <a href="{{ route('accueil') }}">cliquant ici</a></p>
+    </div>
 </div>
 </body>
 </html>
