@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// prefix toutes les urls du groupe par /app/
+Route::prefix('app')->group(function () {
+
+    Route::get('/formations', [\App\Http\Controllers\FormationController::class, 'index'])->name('formation');
+
+
 });
+
