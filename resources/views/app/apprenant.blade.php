@@ -13,6 +13,7 @@
     @foreach($apprenants as $apprenant)
         <h1> {{ $apprenant->name  }}</h1>
         <p> {{$apprenant->age}}</p>
+        <p> {{$apprenant->formation}}</p>
     @endforeach
 
 </div>
