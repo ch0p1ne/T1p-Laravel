@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 // prefix toutes les urls du groupe par /app/
 Route::prefix('app')->group(function () {
 
-    Route::get('/formations', [\App\Http\Controllers\FormationController::class, 'index'])->name('formation');
+    Route::get('/formations', [\App\Http\Controllers\FormationController::class, 'index']);
+    Route::get('/apprenants', [\App\Http\Controllers\ApprenantController::class, 'index']);
 
 
 });
