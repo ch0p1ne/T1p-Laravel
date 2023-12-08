@@ -18,7 +18,10 @@
         <li>- <bold><a href=" {{ route('app.formations') }}">La liste des formations</a> </bold> </li>
         <br>
         <li>- <bold><a href=" {{ route('app.apprenants') }}">La liste des apprenants</a> </bold> </li>
+
     </ul>
+
+    <p style="color: #718096;font-size: 18px;display: inline-block;width: 400px;margin: 0 5% 40% 40%">Les vérifications des saisis ne sont encore géré ni en frotend ni en backend, entrez des valeurs pertinantent</p>
 </div>
 
 </body>
