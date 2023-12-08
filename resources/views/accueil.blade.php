@@ -15,9 +15,9 @@
 
     <p>Voici quelques liens pour interagir avec l'application :</p>
     <ul style="font-size: large; font-style: italic;">
-        <li>- <bold><a href=" {{ route('formations') }}">La liste des formations</a> </bold> </li>
+        <li>- <bold><a href=" {{ route('app.formations') }}">La liste des formations</a> </bold> </li>
         <br>
-        <li>- <bold><a href=" {{ route('apprenants') }}">La liste des apprenants</a> </bold> </li>
+        <li>- <bold><a href=" {{ route('app.apprenants') }}">La liste des apprenants</a> </bold> </li>
     </ul>
 </div>
 
